@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import routes from '../routes';
+import options from '../content_options';
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -9,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-        <h1 className="text-5xl font-signature ml-2">Arnaud</h1>
+        <h1 className="text-3xl font-signature ml-2">{options.title}</h1>
       </div>
 
       <ul className="hidden md:flex">

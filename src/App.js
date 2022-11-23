@@ -1,8 +1,9 @@
-import './App.css';
+import './App.scss';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import SocialLinks from './components/socialLink';
 import About from './components/About';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <SocialLinks />
       <About />
+      <Skills />
     </div>
   );
 }

@@ -1,9 +1,14 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import SocialLinks from './components/socialLink';
 
 function App() {
   return (
     <div className="App">
-      <h1>React App</h1>
+      <Navbar />
+      <Home />
+      <SocialLinks />
     </div>
   );
 }

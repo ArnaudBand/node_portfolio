@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import routes from '../routes';
-import options from '../content_options';
+import options from '../contents/content_options';
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);

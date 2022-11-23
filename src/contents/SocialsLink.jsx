@@ -28,7 +28,7 @@ const socialLinks = [
     href: options.social.github,
   },
   {
-    id: 2,
+    id: 3,
     child: (
       <>
         Twitter
@@ -39,7 +39,7 @@ const socialLinks = [
     href: options.social.twitter,
   },
   {
-    id: 3,
+    id: 4,
     child: (
       <>
         Mail
@@ -50,7 +50,7 @@ const socialLinks = [
     href: `mailto:${options.social.email}`,
   },
   {
-    id: 4,
+    id: 5,
     child: (
       <>
         Resume

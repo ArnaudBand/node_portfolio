@@ -10,7 +10,9 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-        <Link to="/" className="text-xl font-signature ml-2 hover:text-2xl">{options.title}</Link>
+        <Link to="/" className="text-xl italic ml-2 hover:text-2xl">
+          {options.title}
+        </Link>
       </div>
 
       <ul className="hidden md:flex">

@@ -2,6 +2,8 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
+import options from './content_options';
+
 const socialLinks = [
   {
     id: 1,
@@ -12,7 +14,7 @@ const socialLinks = [
         <FaLinkedin size={30} />
       </>
     ),
-    href: 'https://linkedin.com/ArnaudBandonkeye',
+    href: options.social.linkedin,
   },
   {
     id: 2,
@@ -23,7 +25,7 @@ const socialLinks = [
         <FaGithub size={30} />
       </>
     ),
-    href: 'https://github.com/ArnaudBand',
+    href: options.social.github,
   },
   {
     id: 2,
@@ -34,7 +36,7 @@ const socialLinks = [
         <FaTwitter size={30} />
       </>
     ),
-    href: 'https://twitter.com/@ba104781',
+    href: options.social.twitter,
   },
   {
     id: 3,
@@ -45,7 +47,7 @@ const socialLinks = [
         <HiOutlineMail size={30} />
       </>
     ),
-    href: 'bandonkeyea@gmail.com',
+    href: `mailto:${options.social.email}`,
   },
   {
     id: 4,

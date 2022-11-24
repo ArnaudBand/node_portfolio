@@ -67,6 +67,28 @@ const options = {
       style: 'shadow-gray-400',
     },
   ],
+  portfolios: [
+    {
+      id: 1,
+      src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-23_10-17-18.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669221533349',
+    },
+    {
+      id: 2,
+      src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-23_10-13-51.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669221535212',
+    },
+    {
+      id: 3,
+      src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-23_10-12-33.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669221537837',
+    },
+    {
+      id: 4,
+      src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-23_10-05-28.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669221536068',
+    },
+    {
+      id: 5,
+      src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-23_10-37-33.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669221594955',
+    },
+  ],
 };
 
 export default options;

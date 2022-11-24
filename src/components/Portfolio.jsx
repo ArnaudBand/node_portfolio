@@ -1,4 +1,6 @@
 import React from 'react';
+import { FcGlobe } from 'react-icons/fc';
+import { MdLiveTv } from 'react-icons/md';
 import options from '../contents/content_options';
 
 const Portfolio = () => (
@@ -25,10 +27,10 @@ const Portfolio = () => (
             />
             <div className="flex items-center justify-center">
               <a href={live} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                Demo
+                <MdLiveTv />
               </a>
               <a href={github} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                Code
+                <FcGlobe />
               </a>
             </div>
           </div>

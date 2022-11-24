@@ -1,23 +1,38 @@
+import Home from './components/Home';
+import About from './components/About';
+import Skills from './components/Skills';
+import Portfolio from './components/Portfolio';
+// import Contact from './components/Contact';
+
 const routes = [
   {
     id: 1,
-    link: 'Home',
+    path: '/',
+    link: 'home',
+    element: <Home />,
   },
   {
     id: 2,
-    link: 'About',
+    path: '/About',
+    link: 'about',
+    element: <About />,
   },
   {
     id: 3,
-    link: 'Skills',
+    path: '/Skills',
+    link: 'skills',
+    element: <Skills />,
   },
   {
     id: 4,
-    link: 'Portfolio',
+    path: '/Portfolio',
+    link: 'portfolio',
+    element: <Portfolio />,
   },
   {
     id: 5,
-    link: 'Contact',
+    path: '/Contact',
+    link: 'contact',
   },
 ];
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import options from '../contents/content_options';
 
@@ -19,10 +19,8 @@ const Home = () => (
 
         <div>
           <Link
-            to="Portfolio"
-            smooth
-            duration={500}
-            className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+            to="/Portfolio"
+            className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600"
           >
             Portfolio
             <span className="group-hover:rotate-90 duration-300">

@@ -67,6 +67,38 @@ const options = {
       style: 'shadow-gray-400',
     },
   ],
+  portfolios: [
+    {
+      id: 1,
+      src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-23_10-17-18.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669221533349',
+      live: 'https://arnaudband.github.io/Randomly_inspiration-quotes/',
+      github: 'https://github.com/ArnaudBand/Randomly_inspiration-quotes',
+    },
+    {
+      id: 2,
+      src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-23_10-13-51.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669221535212',
+      live: 'https://math-2.herokuapp.com/',
+      github: 'https://github.com/ArnaudBand/book-store',
+    },
+    {
+      id: 3,
+      src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-23_10-12-33.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669221537837',
+      live: 'https://holiday-2.herokuapp.com/',
+      github: 'https://github.com/ArnaudBand/react_space_travel',
+    },
+    {
+      id: 4,
+      src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-24_10-29-34.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669307416720',
+      live: 'https://budget-app-arnaud.herokuapp.com/',
+      github: 'https://github.com/ArnaudBand/budget_app',
+    },
+    {
+      id: 5,
+      src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-23_10-37-33.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669221594955',
+      live: 'https://ezcar.netlify.app/',
+      github: 'https://github.com/indigodavid/ezCar_frontend',
+    },
+  ],
 };
 
 export default options;

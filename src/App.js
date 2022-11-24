@@ -1,18 +1,26 @@
 import './App.scss';
+import {
+  BrowserRouter as Router, Routes, Route,
+} from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Home from './components/Home';
+import routes from './routes';
 import SocialLinks from './components/socialLink';
-import About from './components/About';
-import Skills from './components/Skills';
 
 function App() {
+  // const location = useLocation();
   return (
     <div className="App">
-      <Navbar />
-      <Home />
-      <SocialLinks />
-      <About />
-      <Skills />
+      <Router>
+        <Navbar />
+        <Routes>
+          {routes.map(({
+            id, path, element,
+          }) => (
+            <Route key={id} path={path} element={element} />
+          ))}
+        </Routes>
+        <SocialLinks />
+      </Router>
     </div>
   );
 }

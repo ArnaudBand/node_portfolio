@@ -71,6 +71,8 @@ const options = {
     {
       id: 1,
       src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-23_10-17-18.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669221533349',
+      live: 'https://arnaudband.github.io/Randomly_inspiration-quotes/',
+      github: 'https://github.com/ArnaudBand/Randomly_inspiration-quotes',
     },
     {
       id: 2,

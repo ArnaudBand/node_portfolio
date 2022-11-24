@@ -4,7 +4,7 @@ import options from '../contents/content_options';
 const Skills = () => (
   <div
     name="skills"
-    className="w-full bg-gradient-to-b from-gray-800 to-black "
+    className="w-full bg-gradient-to-b from-gray-800 to-black py-20"
   >
     <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
       <div>

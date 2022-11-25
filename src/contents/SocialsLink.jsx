@@ -1,5 +1,4 @@
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 import options from './content_options';
@@ -15,6 +14,7 @@ const socialLinks = [
       </>
     ),
     href: options.social.linkedin,
+    style: 'rounded-tr-md',
   },
   {
     id: 2,
@@ -42,24 +42,14 @@ const socialLinks = [
     id: 4,
     child: (
       <>
-        Mail
-        {' '}
-        <HiOutlineMail size={30} />
-      </>
-    ),
-    href: `mailto:${options.social.email}`,
-  },
-  {
-    id: 5,
-    child: (
-      <>
         Resume
         {' '}
         <BsFillPersonLinesFill size={30} />
       </>
     ),
-    href: '/resume.pdf',
+    href: 'https://docs.google.com/document/d/1bkUSBnhtxvkfi8vlYJ6BoizFlyDFsK4yHdbeXhjntnc/edit?usp=sharing',
     download: true,
+    style: 'rounded-br-md',
   },
 ];
 

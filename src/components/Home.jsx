@@ -1,22 +1,31 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import Typewriter from 'typewriter-effect';
 import options from '../contents/content_options';
 
 const Home = () => (
-  <div
-    name="home"
-    className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
-  >
+  <div className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="flex flex-col justify-center h-full">
-        <h2 className="text-4xl sm:text-7xl font-bold text-white">
-          {options.title}
-        </h2>
-        <p className="text-gray-500 py-4 max-w-md">
+        <p className="text-xl sm:text-2xl font-bold text-white">
           {options.description}
         </p>
 
+        <p className="text-4xl text-blue-400 py-4 max-w-md">
+          <Typewriter
+            options={{
+              strings: [
+                options.animated.first,
+                options.animated.second,
+                options.animated.third,
+              ],
+              autoStart: true,
+              loop: true,
+              deleteSpeed: 10,
+            }}
+          />
+        </p>
         <div>
           <Link
             to="/Portfolio"

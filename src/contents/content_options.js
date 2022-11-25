@@ -3,9 +3,9 @@ const options = {
   title: 'Arnaud BAND',
   description: 'My name is Arnaud, a software developer. I love to code and to learn new things.',
   animated: {
-    first: 'I love coding',
+    first: 'I love to code',
     second: 'I code cool websites',
-    third: 'I develop mobile apps',
+    third: 'I use best practices',
   },
   image: 'https://ik.imagekit.io/a9w6aihek/Screenshot_20221116-184048_Gallery.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669214536792',
   intro: 'Hi, I’m Arnaud BAND, a software developer. I’m passionate about new technologies and I love to code. I’m currently working at <a href="https://www.ekino.com/" target="_blank">Ekino</a> as a Senior Software Engineer.',

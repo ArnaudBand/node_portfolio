@@ -4,10 +4,7 @@ import { DiGithubFull } from 'react-icons/di';
 import options from '../contents/content_options';
 
 const Portfolio = () => (
-  <div
-    name="portfolio"
-    className="w-full bg-gradient-to-b from-black to-gray-800 text-white py-20"
-  >
+  <div className="w-full bg-gradient-to-b from-black to-gray-800 text-white py-20">
     <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
       <div>
         <p className="text-4xl py-11 font-bold inline underline underline-offset-8 border-gray-500">

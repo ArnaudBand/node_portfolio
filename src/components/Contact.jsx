@@ -1,9 +1,7 @@
 import React from 'react';
 
 const Contact = () => (
-  <div
-    className="w-full bg-gradient-to-b from-black to-gray-800 py-20 text-white"
-  >
+  <div className="w-full bg-gradient-to-b from-black to-gray-800 py-20 text-white">
     <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
       <div className="pb-8">
         <p className="text-4xl font-bold inline border-b-4 border-gray-500">

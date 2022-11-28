@@ -1,6 +1,6 @@
 # Arnaud Portfolio
 
-This is react app built show my personal information.
+This is react app built to show my personal information.
 
 ## Built with
 

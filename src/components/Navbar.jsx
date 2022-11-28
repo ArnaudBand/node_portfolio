@@ -16,6 +16,7 @@ const Navbar = () => {
         {routes.map(({ id, path, link }) => (
           <li
             key={id}
+            id={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200 hover:text-blue-200"
           >
             <NavLink to={path} className="hover:text-base">

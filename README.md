@@ -45,7 +45,7 @@ You may also see any lint errors in the console.
 
 ### Live demo
 
-- [Link](https://arnaudband.github.io/)
+- [Link](https://arnaudband.netlify.app/)
 
 ### Authors
 ***Arnaud Bandonkeye***

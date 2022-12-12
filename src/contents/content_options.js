@@ -1,11 +1,11 @@
 const options = {
   logo: 'https://ik.imagekit.io/a9w6aihek/logo11_20_8715.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669214534908',
   title: 'Arnaud BAND',
-  description: 'My name is Arnaud, a software developer. I love to code and to learn new things.',
+  description: 'I am a software developer. I’m passionate about new technologies and I love to code. I’m currently open to new opportunities.',
   animated: {
-    first: 'I love to code',
-    second: 'I code cool websites',
-    third: 'I use best practices',
+    first: 'Welcome! I am Arnaud.',
+    second: 'A passionate software developer with a growth mindset.',
+    third: 'Ready to deliver exceptional products and service.',
   },
   image: 'https://ik.imagekit.io/a9w6aihek/Screenshot_20221116-184048_Gallery.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669214536792',
   intro: 'Hi, I’m Arnaud BAND, a software developer. I’m passionate about new technologies and I love to code. I’m currently working at <a href="https://www.ekino.com/" target="_blank">Ekino</a> as a Senior Software Engineer.',

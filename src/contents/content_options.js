@@ -82,19 +82,19 @@ const options = {
     {
       id: 2,
       src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-23_10-13-51.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669221535212',
-      live: 'https://math-2.herokuapp.com/',
+      live: 'https://book-library-store.netlify.app/',
       github: 'https://github.com/ArnaudBand/book-store',
     },
     {
       id: 3,
       src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-23_10-12-33.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669221537837',
-      live: 'https://holiday-2.herokuapp.com/',
+      live: 'https://space-travel5.netlify.app/',
       github: 'https://github.com/ArnaudBand/react_space_travel',
     },
     {
       id: 4,
       src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-24_10-29-34.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669307416720',
-      live: 'https://budget-app-arnaud.herokuapp.com/',
+      live: '',
       github: 'https://github.com/ArnaudBand/budget_app',
     },
     {

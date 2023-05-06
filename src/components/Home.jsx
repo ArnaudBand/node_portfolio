@@ -12,7 +12,7 @@ const Home = () => (
           {options.description}
         </p>
 
-        <p className="text-4xl text-blue-400 py-4 max-w-md">
+        <p className="text-4xl text-yellow-400 py-4 max-w-md">
           <Typewriter
             options={{
               strings: [
@@ -29,7 +29,7 @@ const Home = () => (
         <div>
           <Link
             to="/Portfolio"
-            className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600"
+            className="group text-black w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-yellow-200 to-yellow-500 hover:from-cyan-600 hover:to-blue-600"
           >
             Portfolio
             <span className="group-hover:rotate-90 duration-300">

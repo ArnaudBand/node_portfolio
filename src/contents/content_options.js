@@ -1,9 +1,10 @@
 const options = {
+  image_logo: 'https://ik.imagekit.io/a9w6aihek/logo_image.png?updatedAt=1683332615848',
   logo: 'https://ik.imagekit.io/a9w6aihek/logo11_20_8715.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669214534908',
   title: 'Arnaud BAND',
   description: 'I am a software developer. I’m passionate about new technologies and I love to code. I’m currently open to new opportunities.',
   animated: {
-    first: 'Welcome! I am Arnaud.',
+    first: 'Hello! I am Arnaud.',
     second: 'A passionate software developer with a growth mindset.',
     third: 'Ready to deliver exceptional products and service.',
   },

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import options from '../contents/content_options';
 import routes from '../routes';
 
 const Navbar = () => {
@@ -9,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-        <h1 className="text-5xl font-signature ml-2">Arnaud</h1>
+        <img src={options.image_logo} height="75" width="75" alt="" />
       </div>
 
       <ul className="hidden md:flex">

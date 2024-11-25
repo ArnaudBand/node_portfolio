@@ -2,11 +2,11 @@ const options = {
   image_logo: 'https://ik.imagekit.io/a9w6aihek/logo_image.png?updatedAt=1683332615848',
   logo: 'https://ik.imagekit.io/a9w6aihek/logo11_20_8715.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669214534908',
   title: 'Arnaud BAND',
-  description: 'I am a software developer. I’m passionate about new technologies and I love to code. I’m currently open to new opportunities.',
+  description: 'I am a passionate software developer dedicated to solving real-world challenges through innovative technology.',
   animated: {
-    first: 'Hello! I am Arnaud.',
-    second: 'A passionate software developer with a growth mindset.',
-    third: 'Ready to deliver exceptional products and service.',
+    first: 'Hi, I’m Arnaud!',
+    second: 'A passionate software developer.',
+    third: 'Let’s create impactful solutions together!',
   },
   image: 'https://ik.imagekit.io/a9w6aihek/Screenshot_20221116-184048_Gallery.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669214536792',
   intro: 'Hi, I’m Arnaud BAND, a software developer. I’m passionate about new technologies and I love to code. I’m currently working at <a href="https://www.ekino.com/" target="_blank">Ekino</a> as a Senior Software Engineer.',
@@ -72,6 +72,48 @@ const options = {
       title: 'Github',
       style: 'shadow-gray-400',
     },
+    {
+      id: 10,
+      src: 'https://ik.imagekit.io/a9w6aihek/ai.jpeg?updatedAt=1732343551662',
+      title: 'AI',
+      style: 'shadow-blue-500',
+    },
+    {
+      id: 11,
+      src: 'https://ik.imagekit.io/a9w6aihek/blockchain.jpeg?updatedAt=1732343551657',
+      title: 'Blockchain',
+      style: 'shadow-blue-500',
+    },
+    {
+      id: 12,
+      src: 'https://ik.imagekit.io/a9w6aihek/solidity.png?updatedAt=1732343551575',
+      title: 'Solidity',
+      style: 'shadow-blue-700',
+    },
+    {
+      id: 13,
+      src: 'https://ik.imagekit.io/a9w6aihek/typescript.jpeg?updatedAt=1732343551480',
+      title: 'TypeScript',
+      style: 'shadow-blue-500/10',
+    },
+    {
+      id: 14,
+      src: 'https://ik.imagekit.io/a9w6aihek/download.png?updatedAt=1732343551466',
+      title: 'Next.js',
+      style: 'shadow-white/80',
+    },
+    {
+      id: 15,
+      src: 'https://ik.imagekit.io/a9w6aihek/adobe.png?updatedAt=1732344817447',
+      title: 'Adobe',
+      style: 'shadow-red-500',
+    },
+    {
+      id: 16,
+      src: 'https://ik.imagekit.io/a9w6aihek/figma.png?updatedAt=1732344817568',
+      title: 'Figma',
+      style: 'shadow-green-500',
+    },
   ],
   portfolios: [
     {
@@ -103,6 +145,16 @@ const options = {
       src: 'https://ik.imagekit.io/a9w6aihek/Screenshot_from_2022-11-23_10-37-33.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669221594955',
       live: 'https://ezcar.netlify.app/',
       github: 'https://github.com/indigodavid/ezCar_frontend',
+    },
+    {
+      id: 6,
+      src: 'https://ik.imagekit.io/a9w6aihek/download.png?updatedAt=1732343551466',
+      live: 'https://cranecloud.io/',
+      github: 'https://github.com/crane-cloud/frontend',
+    },
+    {
+      id: 7,
+      src: '',
     },
   ],
 };

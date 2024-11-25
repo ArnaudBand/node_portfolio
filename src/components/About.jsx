@@ -13,18 +13,20 @@ const About = () => (
       </div>
 
       <p className="text-xl mt-20">
-        I am a full stack web developer with a passion for creating beautiful
-        and functional websites. I have a background in graphic design and
-        marketing, which has given me a unique perspective on how to create
-        websites that are both visually appealing and easy to use.
+        I am a full-stack web developer with a passion for crafting visually
+        stunning and highly functional websites. With a background in graphic
+        design and marketing, I bring a unique perspective to web development,
+        creating user-friendly websites that balance aesthetics and usability
+        seamlessly.
       </p>
 
       <br />
 
       <p className="text-xl">
-        I am currently working as a freelance web developer, and am always
-        looking for new projects to work on. If you have a project that you
-        would like to discuss, please feel free to contact me.
+        Currently working as a freelance web developer, I am always excited to
+        collaborate on new projects. If you have a vision you&apos;d like to bring to
+        life, don&apos;t hesitate to reach out—I&apos;d love to discuss how we can make it
+        happen!
       </p>
     </div>
   </div>

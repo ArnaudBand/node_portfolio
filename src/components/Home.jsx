@@ -5,14 +5,14 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import options from '../contents/content_options';
 
 const Home = () => (
-  <div className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
-    <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-      <div className="flex flex-col justify-center h-full">
-        <p className="text-xl sm:text-2xl font-bold text-white">
+  <div className="md:h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
+    <div className="w-full mx-auto flex flex-col items-center justify-between h-full px-4 md:flex-row">
+      <div className="flex flex-col justify-center w-3/4 py-36 mx-20">
+        <p className="text-base sm:text-xl font-bold text-white w-full">
           {options.description}
         </p>
 
-        <p className="text-4xl text-yellow-400 py-4 max-w-md">
+        <p className="text-yellow-400 py-4 max-w-md">
           <Typewriter
             options={{
               strings: [

@@ -8,10 +8,10 @@ const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
-      <div>
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-50">
+      <a href="/">
         <img src={options.image_logo} height="75" width="75" alt="" />
-      </div>
+      </a>
 
       <ul className="hidden md:flex">
         {routes.map(({ id, path, link }) => (
